@@ -459,7 +459,7 @@ img {
 .icon-button {
   margin-left: 16px;
 }
-.info-list-windo {
+.info-list-window {
   position: fixed;
   top: 0;
   left: 0;
@@ -881,7 +881,7 @@ img {
     display: flex;
     flex-direction: column;
   }
-  .privacy-lable > div {
+  .privacy-label > div {
     display: flex;
   }
   .team,

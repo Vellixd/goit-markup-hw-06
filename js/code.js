@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
- 
+
     const modal1 = {
       openBtn: document.querySelector("[data-modal-open]"),
       closeBtn: document.querySelector("[data-modal-close]"),
@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
       closeBtn: document.querySelector("[data-modal2-close]"),
       modal: document.querySelector("[data-modal2]"),
     };
- 
+
     function toggleModal(modalRef) {
       modalRef.modal.classList.toggle("is-open");
     }
- 
+
     if (modal1.openBtn && modal1.closeBtn && modal1.modal) {
       modal1.openBtn.addEventListener("click", () => toggleModal(modal1));
       modal1.closeBtn.addEventListener("click", () => toggleModal(modal1));

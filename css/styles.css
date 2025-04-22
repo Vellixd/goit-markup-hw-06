@@ -151,7 +151,7 @@ body {
 .click:focus {
   background-color: #404bbf;
 }
-.textfre {
+.textthree {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -160,16 +160,16 @@ body {
   margin-bottom: 8px;
   text-align: center;
 }
-.li-list-content > .textfre {
+.li-list-content > .textthree {
   font-weight: 700;
   font-size: 36px;
 }
-.paragraf {
+.paragraph {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.li-list-content > .paragraf {
+.li-list-content > .paragraph {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
